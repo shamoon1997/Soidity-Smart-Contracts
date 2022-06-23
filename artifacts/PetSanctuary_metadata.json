@@ -1,0 +1,150 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum PetSanctuary.AnimalKind",
+						"name": "_animalKind",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_howManyPieces",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "animalKind",
+				"outputs": [
+					{
+						"internalType": "enum PetSanctuary.AnimalKind",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum PetSanctuary.AnimalKind",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "animals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "personAge",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_personGender",
+						"type": "string"
+					},
+					{
+						"internalType": "enum PetSanctuary.AnimalKind",
+						"name": "_animalKind",
+						"type": "uint8"
+					}
+				],
+				"name": "buy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum PetSanctuary.AnimalKind",
+						"name": "_animalKind",
+						"type": "uint8"
+					}
+				],
+				"name": "giveBackAnimal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PetSanctuary.sol": "PetSanctuary"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PetSanctuary.sol": {
+			"keccak256": "0xc9bb39037417f1b51bc0978848baef80b6aa91ed0ec8fceef8a6aa2f088be5d6",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://221e418100f81611c8bc7584298724835cc8096a98fa7db97f6e9e0f2f28163e",
+				"dweb:/ipfs/QmdcCLdaVNeEPJrnToLF5ziX3L4BxE1ezknS74e88vcokM"
+			]
+		}
+	},
+	"version": 1
+}
