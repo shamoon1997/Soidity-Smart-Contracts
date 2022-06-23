@@ -34,7 +34,7 @@ contract ledgerP{
 
     function mem() public view {
         string [] memory test=users;
-        test[0]="any user";
+        test[0]="any user there";
     }
     function sto() public {
         string [] storage test=users;
